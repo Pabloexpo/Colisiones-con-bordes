@@ -31,7 +31,7 @@ function animar() {
             let dy = bola2.y - bola.y;
             let dist = Math.sqrt(dx ** 2 + dy ** 2);
 
-            if (dist < 300) {
+            if (dist < 180) {
                 ctx.beginPath();
                 ctx.moveTo(bola.x, bola.y);
                 ctx.lineTo(bola2.x, bola2.y);
