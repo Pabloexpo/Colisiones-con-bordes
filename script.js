@@ -10,7 +10,7 @@ canvas.height = document.documentElement.clientHeight;
 //creamos la bola
 
 let bolas = [];
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 10; i++) {
     bolas.push(new Bola(canvas.width / 2, canvas.height / 2));
 }
 
