@@ -20,7 +20,7 @@ class Bola{
         this.x += this.dirX*this.velocidad; 
         this.y += this.dirY*this.velocidad; 
         if (this.x + this.radio > canvas.width || this.x<0) this.dirX *= -1;
-        if (this.y + this.radio > canvas.width || this.y<0) this.dirY *= -1
+        if (this.y + this.radio > canvas.width || this.y<0 || this.y + this.radio > canvas.height) this.dirY *= -1
         
     }
 
